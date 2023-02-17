@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>Berry.FileSystem</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Berry.FileSystem.Domain.Shared\Berry.FileSystem.Domain.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

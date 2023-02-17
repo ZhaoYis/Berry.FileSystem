@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>Berry.FileSystem</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Berry.FileSystem.Domain.Shared\Berry.FileSystem.Domain.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.ObjectExtending" Version="6.0.3" />
+    </ItemGroup>
+
+</Project>
